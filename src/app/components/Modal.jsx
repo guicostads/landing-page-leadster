@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Thumb from "@/app/images/thumbnail.png";
+import Image from "next/image";
 
 const Modal = ({ videoUrl }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +17,13 @@ const Modal = ({ videoUrl }) => {
 
   return (
     <div>
-      <button
+      <div
         onClick={openModal}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-transparent  h-36 drop-shadow-lg text-white cursor-pointer rounded "
       >
-        Open Modal
-      </button>
+        <Image src={Thumb} width={500} height={500} alt="thumbnail" />
+        <p className="bg-white text-black  py-2 px-2.5 text-xs"><h3>Como aumentar a geração de Leads ft. Traktor</h3></p>
+      </div>
       {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center z-10">
           <div className="bg-white rounded-lg p-8 shadow-lg">
