@@ -23,7 +23,7 @@ const Modal = ({ videoUrl }) => {
       >
         <Image
           src={Thumb}
-          width={500}
+          width={400}
           height={500}
           alt="thumbnail"
           className="transition-opacity opacity-0 duration-[1s] rounded-t-lg"

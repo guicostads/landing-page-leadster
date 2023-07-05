@@ -17,9 +17,6 @@ export default function RootLayout({ children }) {
       <body>
         <TopLogo />
         <Header />
-        <div>
-          <VideosNav />
-        </div>
         {children}
       </body>
     </html>
