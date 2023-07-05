@@ -5,12 +5,10 @@ import videosData from "@/app/videos/videos.json";
 
 export const VideosList = () => {
   return (
-   
-      <div className="grid grid-cols-3 grid-rows-3 gap-6 p-2">
-        {videosData.map((video, index) => (
-          <Modal videoUrl={video.url} key={index} />
-        ))}
-      </div>
-   
+    <div className="grid grid-cols-3 auto-rows-auto	gap-5 p-5">
+      {videosData.map((video, index) => (
+        <Modal videoUrl={video.url} key={index} />
+      ))}
+    </div>
   );
 };

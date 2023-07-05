@@ -19,10 +19,17 @@ const Modal = ({ videoUrl }) => {
     <div>
       <div
         onClick={openModal}
-        className="bg-transparent  h-36 drop-shadow-lg text-white cursor-pointer rounded rounded-lg"
+        className="bg-transparent drop-shadow-lg text-white cursor-pointer"
       >
-        <Image src={Thumb} width={500} height={500} alt="thumbnail" className="transition-opacity opacity-0 duration-[2s]" onLoadingComplete={(image) => image.classList.remove('opacity-0')}/>
-        <h3 className="bg-white text-black  py-2 px-2.5 text-xs">
+        <Image
+          src={Thumb}
+          width={500}
+          height={500}
+          alt="thumbnail"
+          className="transition-opacity opacity-0 duration-[1s] rounded-t-lg"
+          onLoadingComplete={(image) => image.classList.remove("opacity-0")}
+        />
+        <h3 className="bg-white text-black  py-4 px-2.5 text-xs rounded-b-lg">
           Como aumentar a geração de Leads ft. Traktor
         </h3>
       </div>
