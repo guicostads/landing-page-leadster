@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body>
         <TopLogo />
         <Header />
-        {children}
+        <div className="w-full flex items-center justify-center">{children}</div>
       </body>
     </html>
   );

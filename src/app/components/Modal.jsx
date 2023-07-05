@@ -19,12 +19,12 @@ const Modal = ({ videoUrl }) => {
     <div>
       <div
         onClick={openModal}
-        className="bg-transparent drop-shadow-lg text-white cursor-pointer"
+        className="bg-transparent drop-shadow-lg text-white cursor-pointer w-fit"
       >
         <Image
           src={Thumb}
-          width={400}
-          height={500}
+          width={350}
+          height={350}
           alt="thumbnail"
           className="transition-opacity opacity-0 duration-[1s] rounded-t-lg"
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}

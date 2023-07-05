@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const VideosNav = () => {
   return (
-    <div className="pb-5 mb-10 border-b-2 border-solid border-b-gray-300/[.55]">
+    <div className="pb-5  mb-10 border-b-2 border-solid border-b-gray-300/[.55]">
       <nav>
         <ul className="flex gap-4 w-full">
           <li className="border border-solid p-2 rounded-2xl">
