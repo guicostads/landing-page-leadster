@@ -6,10 +6,9 @@ import { VideosNav } from "./VideosNav";
 
 export const VideosList = () => {
   return (
-    <div className="pt-3">
+    <div className="pt-3 pb-10 border-b-2 border-solid border-b-gray-300/[.55]">
       <VideosNav />
-
-      <div className="w-full grid grid-cols-3 grid-rows-3	gap-4 place-items-stretch border-b-2 border-solid pb-5">
+      <div className="w-full grid grid-cols-3 grid-rows-3	gap-4">
         {videosData.map((video, index) => (
           <Modal videoUrl={video.url} key={index} />
         ))}

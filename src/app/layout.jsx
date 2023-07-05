@@ -3,6 +3,7 @@ import { TopLogo } from "./components/TopLogo";
 import { VideosNav } from "./components/VideosNav";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({ children }) {
       <body>
         <TopLogo />
         <Header />
-        <div className="w-full flex items-center justify-center">{children}</div>
+        <div className="w-full h-full flex items-center justify-center  sd:px-8 md:px-8">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );
