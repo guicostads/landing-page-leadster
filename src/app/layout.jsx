@@ -4,6 +4,7 @@ import { VideosNav } from "./components/VideosNav";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
+import BottomContent from "./components/BottomContent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <div className="w-full h-full flex items-center justify-center  sd:px-8 md:px-8">
           {children}
         </div>
+        <BottomContent />
         <Footer />
       </body>
     </html>

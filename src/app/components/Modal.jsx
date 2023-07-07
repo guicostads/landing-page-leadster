@@ -23,8 +23,6 @@ const Modal = ({ videoUrl }) => {
       >
         <Image
           src={Thumb}
-          width={350}
-          height={350}
           alt="thumbnail"
           className="transition-opacity opacity-0 duration-[1s] rounded-t-lg"
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}
