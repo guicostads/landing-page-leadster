@@ -1,12 +1,8 @@
 import { Header } from "./components/Header";
 import { TopLogo } from "./components/TopLogo";
-import { VideosNav } from "./components/VideosNav";
-import { Inter } from "next/font/google";
-import "./globals.css";
 import Footer from "./components/Footer";
 import BottomContent from "./components/BottomContent";
-
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.css";
 
 export const metadata = {
   title: "Create Next App",
