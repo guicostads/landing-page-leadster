@@ -12,13 +12,13 @@ export const VideosNav = () => {
             <Link href="/">Agências</Link>
           </li>
           <li className="border border-solid p-2 text-sm rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
-            <Link href="/">Chatbot</Link>
+            <Link href="/pages/chatbotTab">Chatbot</Link>
           </li>
           <li className="border border-solid p-2 text-sm  rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
-            <Link href="/">Marketing digital</Link>
+            <Link href="/pages/marketingTab">Marketing digital</Link>
           </li>
           <li className="border border-solid p-2  text-sm  rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
-            <Link href="/">Mídia paga</Link>
+            <Link href="/pages/midiaTab">Mídia paga</Link>
           </li>
         </ul>
         <div className="flex items-center">
