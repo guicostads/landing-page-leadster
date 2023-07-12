@@ -9,7 +9,7 @@ export const Header = () => {
       </div>
       <span className="text-gray-800 text-4xl">Menos conversinha,</span>
       <div className="flex border-b border-solid border-b-gray-300/[.55] flex align-center justify-center">
-        <span className="text-blue-500 text-7xl font-semibold mb-1.5">
+        <span className="text-blue-500 text-7xl font-semibold mb-1.5 whitespace-nowrap">
           Mais conversão
         </span>
         <div className="-ml-7 -mt-1">
