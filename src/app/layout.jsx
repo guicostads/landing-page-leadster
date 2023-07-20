@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <TopLogo />
         <Header />
-        <div className="w-full h-full flex items-center justify-center max-md:px-3">
+        <div className="w-full h-full flex items-center justify-center">
           {children}
         </div>
         <BottomContent />
