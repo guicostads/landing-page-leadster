@@ -8,16 +8,16 @@ export const VideosNav = () => {
     <div className="pb-5 mb-10 border-b-2 border-solid border-b-gray-300/[.55] w-full">
       <nav className="flex justify-between">
         <ul className="flex gap-4 w-full">
-          <li className=" border border-solid px-2 py-0.5 text-sm rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
+          <li className=" border border-solid px-2 py-0.5 text-sm rounded-2xl hover:bg-blue-500 hover:text-white grid items-center whitespace-nowrap">
             <Link href="/">Agências</Link>
           </li>
-          <li className="border border-solid p-2 text-sm rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
-            <Link href="/pages/chatbotTab">Chatbot</Link>
+          <li className="border border-solid p-2 text-sm rounded-2xl hover:bg-blue-500 hover:text-white grid items-center whitespace-nowrap">
+            <Link href="pages/chatbotTab">Chatbot</Link>
           </li>
-          <li className="border border-solid p-2 text-sm  rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
+          <li className="border border-solid p-2 text-sm  rounded-2xl hover:bg-blue-500 hover:text-white grid items-center whitespace-nowrap">
             <Link href="/pages/marketingTab">Marketing digital</Link>
           </li>
-          <li className="border border-solid p-2  text-sm  rounded-2xl hover:bg-blue-500 hover:text-white grid items-center">
+          <li className="border border-solid p-2  text-sm  rounded-2xl hover:bg-blue-500 hover:text-white grid items-center whitespace-nowrap">
             <Link href="/pages/midiaTab">Mídia paga</Link>
           </li>
         </ul>

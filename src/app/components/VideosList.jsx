@@ -7,9 +7,9 @@ import Pages from "./Pages";
 
 export const VideosList = () => {
   return (
-    <div className="pt-3 pb-10 w-8/12 max-md:w-full max-md:px-5">
+    <div className="pt-3 pb-10 px-5 w-full">
       <VideosNav />
-      <div className="w-full grid grid-cols-3 grid-rows-3	gap-5">
+      <div className="w-full px-10 grid grid-cols-3	gap-5 max-md:grid-cols-1 max-md:place-items-center">
         {videosData.map((video, index) => (
           <Modal videoUrl={video.url} key={index} />
         ))}
