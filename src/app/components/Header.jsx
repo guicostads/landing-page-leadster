@@ -12,7 +12,7 @@ export const Header = () => {
         <span className="text-blue-500  text-7xl max-md:text-5xl font-semibold mb-1.5 whitespace-nowrap">
           Mais conversão
         </span>
-        <div className="max-md:-ml-5 max-md:mt-1 -ml-7">
+        <div className="max-md:-ml-6 max-md:-mt-2 -ml-7">
           <Image src={AssetHeader} alt="asset" quality={100}/>
         </div>
       </div>

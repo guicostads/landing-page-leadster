@@ -1,31 +1,43 @@
+import Image from "next/image";
+import Logo from "@/app/images/logo.png";
+
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center flex-col pt-4">
-      <h1>COE</h1>
-      <div className="grid grid-cols-4 place-items-stretch gap-5 w-full h-fit p-6">
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-          minima delectus ducimus, soluta ipsa sed tenetur aliquam at illo beatae
-          veniam veritatis repudiandae ex nihil omnis! Distinctio amet quidem
-          sint.
+    <footer className="flex flex-col text-center pt-4 w-full">
+      <Image src={Logo} alt="logo" className="m-auto" />
+      <p className="text-gray-500 text-sm">
+        Transformando visitantes em clientes.
+      </p>
+      <div className="grid grid-cols-4 place-items-center  py-3 px-20 mt-2">
+        <div className="text-left">
+          <h2 className="mb-8 text-gray-700 font-medium">Links Principais</h2>
+          <ul className="text-gray-600">
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+          </ul>
+        </div>
+        <div className="text-left">
+          <h2 className="mb-8 text-gray-700 font-medium">Cases</h2>
+          <ul className="text-gray-600">
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+          </ul>
+        </div>
+        <div className="text-left">
+          <h2 className="mb-8 text-gray-700 font-medium">Materiais</h2>
+          <ul className="text-gray-600">
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+          </ul>
         </div>
         <div>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, pariatur
-          ad animi commodi repudiandae est quae autem maxime ipsam! Nihil,
-          sapiente itaque. Soluta obcaecati ab voluptatibus dolore similique culpa
-          mollitia!
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
-          labore natus quisquam nobis error? Laboriosam tenetur temporibus ratione
-          quidem beatae ut iure animi nihil nobis deserunt quaerat eveniet, atque
-          voluptatem.
-        </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus
-          labore natus quisquam nobis error? Laboriosam tenetur temporibus ratione
-          quidem beatae ut iure animi nihil nobis deserunt quaerat eveniet, atque
-          voluptatem.
+          <h2 className="mb-8 text-gray-700 font-medium">Siga a leadster</h2>
         </div>
       </div>
     </footer>
