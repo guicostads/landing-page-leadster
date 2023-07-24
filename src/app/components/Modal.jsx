@@ -19,13 +19,15 @@ const Modal = ({ videoUrl }) => {
     <div>
       <div
         onClick={openModal}
-        className="bg-transparent drop-shadow-lg text-white cursor-pointer transform transition-transform hover:scale-105"
+        className="bg-transparent drop-shadow-lg text-white cursor-pointer transform transition-transform w-full hover:scale-105"
       >
         <Image
           src={Thumb}
           alt="thumbnail"
           className="transition-opacity opacity-0 duration-[1s] rounded-t-lg w-full h-auto"
           onLoadingComplete={(image) => image.classList.remove("opacity-0")}
+          quality={100}
+          priority={false}
         />
         <h3 className="bg-white text-black  py-4 px-2.5 text-sm max-md:text-xs font-semibold rounded-b-lg text-center">
           Como aumentar a geração de Leads ft. Traktor
