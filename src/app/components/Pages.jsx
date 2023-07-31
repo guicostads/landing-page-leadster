@@ -12,7 +12,7 @@ const Pages = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-center gap-2 pt-3  border-t-2 mt-10">
+      <nav className="flex items-center justify-center gap-2 pt-5  border-t-2 mt-10">
         <span>Página</span>
         <ul className="flex items-center justify-center gap-2">
           <li

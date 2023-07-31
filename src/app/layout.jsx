@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="text-center flex flex-col items-center">
+      <body className="text-center flex flex-col items-center min-h-screen">
         <TopLogo />
         <Header />
         <div className="px-20 max-md:px-2">{children}</div>
